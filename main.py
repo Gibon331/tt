@@ -1,2 +1,6 @@
-while True:
-    print("elo")
+import requests
+
+x = requests.get('https://google.pl')
+
+print(x)
+
